@@ -5,6 +5,9 @@
 
 #import "MCColor.h"
 
+#import "MCStyleManager.h"
+#import "MCColorConfig.h"
+
 
 @implementation MCColor
 
@@ -50,50 +53,98 @@
 }
 
 + (UIColor *)colorI {
+    UIColor *custom = [MCStyleManager share].colorConfig.colorI;
+    if (custom) {
+        return custom;
+    }
     return [MCColor rgb:0x333333];
 }
 
 + (UIColor *)colorII {
+    UIColor *custom = [MCStyleManager share].colorConfig.colorII;
+    if (custom) {
+        return custom;
+    }
     return [MCColor rgb:0x666666];
 }
 
 + (UIColor *)colorIII {
+    UIColor *custom = [MCStyleManager share].colorConfig.colorIII;
+    if (custom) {
+        return custom;
+    }
     return [MCColor rgb:0x999999];
 }
 
 + (UIColor *)colorIV {
+    UIColor *custom = [MCStyleManager share].colorConfig.colorIV;
+    if (custom) {
+        return custom;
+    }
     return [MCColor rgb:0xcacaca];
 }
 
 + (UIColor *)colorV {
+    UIColor *custom = [MCStyleManager share].colorConfig.colorV;
+    if (custom) {
+        return custom;
+    }
     return [MCColor rgb:0xf7f7f9];
 }
 
 + (UIColor *)colorVI {
+    UIColor *custom = [MCStyleManager share].colorConfig.colorVI;
+    if (custom) {
+        return custom;
+    }
     return [MCColor rgb:0xdedede];
 }
 
 + (UIColor *)colorVII {
+    UIColor *custom = [MCStyleManager share].colorConfig.colorVII;
+    if (custom) {
+        return custom;
+    }
     return [MCColor rgb:0x76bdff];
 }
 
 + (UIColor *)colorVIII {
+    UIColor *custom = [MCStyleManager share].colorConfig.colorVIII;
+    if (custom) {
+        return custom;
+    }
     return [MCColor rgb:0xffbc1c];
 }
 
 + (UIColor *)colorIX {
+    UIColor *custom = [MCStyleManager share].colorConfig.colorIX;
+    if (custom) {
+        return custom;
+    }
     return [MCColor rgb:0x7789a8];
 }
 
 + (UIColor *)colorX {
+    UIColor *custom = [MCStyleManager share].colorConfig.colorX;
+    if (custom) {
+        return custom;
+    }
     return [MCColor rgb:0xebf2fa];
 }
 
 + (UIColor *)colorXI {
+    UIColor *custom = [MCStyleManager share].colorConfig.colorXI;
+    if (custom) {
+        return custom;
+    }
     return [MCColor rgb:0x30c84d];
 }
 
 + (UIColor *)colorXII {
+    UIColor *custom = [MCStyleManager share].colorConfig.colorXII;
+    if (custom) {
+        return custom;
+    }
     return [MCColor rgb:0xff6d69];
 }
 

@@ -15,13 +15,16 @@
 		1A66657C5CCA021EBB6CDFE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666F1413553BA00E1136A5 /* AppDelegate.m */; };
 		1A66663C7B78E97EAA03FD46 /* Sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A66674B8E240D2B7C1D914D /* Sample.json */; };
 		1A6666415D7DE4050E520EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A666F6BAD9927A75F845C02 /* LaunchScreen.storyboard */; };
+		1A66688F3682BF379D79F09F /* CustomColor.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A66605C4A96AFB78883F038 /* CustomColor.json */; };
 		1A6668AF7CEE9928B37D015A /* MCFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666901FAD8414C42449EFC /* MCFont.m */; };
 		1A6668E3B63BB01BDDF5DC4D /* SampleStyleDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6663E677D79BCDC5B3CE7A /* SampleStyleDto.m */; };
 		1A66694FB542E1106C0421BD /* MCStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6668999F5F0C60F4014468 /* MCStyle.m */; };
+		1A666959232C3B7B58BF1E93 /* CustomStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A666F5EBA302473FCFA141C /* CustomStyle.json */; };
 		1A666A088D3060B26448C5F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A666D24F5A234202BE2F1D7 /* Assets.xcassets */; };
 		1A666AD39CEDB9B64BC25094 /* MCFontConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666497866CBF9808C9D976 /* MCFontConfig.m */; };
 		1A666C8C5738BEAD82063980 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666AEBB0933CF8F5E9BEC5 /* main.m */; };
 		1A666DB8A044405F70CC1093 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1A6664A18C424F3ACBF5299A /* README.md */; };
+		1A666DF2CBD37C51A153217A /* CustomFont.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A666AF1385CC7BE1BA4848C /* CustomFont.json */; };
 		1A666E05069CD706F1679BBE /* RootDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6664DF014868DDFA56918E /* RootDataVM.m */; };
 		1A666E2D0E05AF83497D612A /* MCDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66603C09C6543AAF608E3E /* MCDto.m */; };
 		1A666F11F1ECAFE844027CD2 /* MCStyleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666A426BB52770EBA7C7C2 /* MCStyleConfig.m */; };
@@ -30,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		1A66603C09C6543AAF608E3E /* MCDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDto.m; sourceTree = "<group>"; };
+		1A66605C4A96AFB78883F038 /* CustomColor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CustomColor.json; sourceTree = "<group>"; };
 		1A66606FAE4B6AEC47D1FBD3 /* MCStyleConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStyleConfig.h; sourceTree = "<group>"; };
 		1A6660D6D506CA3B3F5F8C1B /* MCColorConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCColorConfig.m; sourceTree = "<group>"; };
 		1A6661FF5F08CE51997E0901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MCStyleDemo/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
@@ -52,6 +56,7 @@
 		1A666A426BB52770EBA7C7C2 /* MCStyleConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCStyleConfig.m; sourceTree = "<group>"; };
 		1A666AAC67A2249D5FBA0DE9 /* MCStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStyle.h; sourceTree = "<group>"; };
 		1A666AEBB0933CF8F5E9BEC5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A666AF1385CC7BE1BA4848C /* CustomFont.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CustomFont.json; sourceTree = "<group>"; };
 		1A666B31FDF2339647019FFE /* MCStyleDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStyleDef.h; sourceTree = "<group>"; };
 		1A666BAD7D9C5F4423F97F95 /* MCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCColor.h; sourceTree = "<group>"; };
 		1A666BEB0DE02808127381ED /* SampleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCell.m; sourceTree = "<group>"; };
@@ -62,6 +67,7 @@
 		1A666D24F5A234202BE2F1D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A666F01216ABAFAC37D02C2 /* MCDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDto.h; sourceTree = "<group>"; };
 		1A666F1413553BA00E1136A5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A666F5EBA302473FCFA141C /* CustomStyle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CustomStyle.json; sourceTree = "<group>"; };
 		1A666F83520B0E8E05DB3D5D /* SampleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCell.h; sourceTree = "<group>"; };
 		25845ED821D5D3BB0007D2F9 /* MCStyleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCStyleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,6 +91,7 @@
 				1A666F6BAD9927A75F845C02 /* LaunchScreen.storyboard */,
 				1A666074E69802229FA23E68 /* Main.storyboard */,
 				1A66674B8E240D2B7C1D914D /* Sample.json */,
+				1A66663AC32BAB39FBC8C864 /* Datas */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -105,6 +112,16 @@
 				1A666F83520B0E8E05DB3D5D /* SampleCell.h */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		1A66663AC32BAB39FBC8C864 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				1A66605C4A96AFB78883F038 /* CustomColor.json */,
+				1A666AF1385CC7BE1BA4848C /* CustomFont.json */,
+				1A666F5EBA302473FCFA141C /* CustomStyle.json */,
+			);
+			path = Datas;
 			sourceTree = "<group>";
 		};
 		25845ECF21D5D3BB0007D2F9 = {
@@ -220,6 +237,9 @@
 				1A6666415D7DE4050E520EE0 /* LaunchScreen.storyboard in Resources */,
 				1A666533DDCA60D56ACA503E /* Main.storyboard in Resources */,
 				1A66663C7B78E97EAA03FD46 /* Sample.json in Resources */,
+				1A66688F3682BF379D79F09F /* CustomColor.json in Resources */,
+				1A666DF2CBD37C51A153217A /* CustomFont.json in Resources */,
+				1A666959232C3B7B58BF1E93 /* CustomStyle.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

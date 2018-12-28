@@ -9,28 +9,28 @@
 
 @interface MCFontConfig : MCDto
 
-@property(nonatomic, strong) UIFont *fontI;
+@property(nonatomic, strong) NSNumber *fontI;
 
-@property(nonatomic, strong) UIFont *fontII;
+@property(nonatomic, strong) NSNumber *fontII;
 
-@property(nonatomic, strong) UIFont *fontIII;
+@property(nonatomic, strong) NSNumber *fontIII;
 
-@property(nonatomic, strong) UIFont *fontIV;
+@property(nonatomic, strong) NSNumber *fontIV;
 
-@property(nonatomic, strong) UIFont *fontV;
+@property(nonatomic, strong) NSNumber *fontV;
 
-@property(nonatomic, strong) UIFont *fontVI;
+@property(nonatomic, strong) NSNumber *fontVI;
 
-@property(nonatomic, strong) UIFont *fontVII;
+@property(nonatomic, strong) NSNumber *fontVII;
 
-@property(nonatomic, strong) UIFont *fontVIII;
+@property(nonatomic, strong) NSNumber *fontVIII;
 
-@property(nonatomic, strong) UIFont *fontIX;
+@property(nonatomic, strong) NSNumber *fontIX;
 
-@property(nonatomic, strong) UIFont *fontX;
+@property(nonatomic, strong) NSNumber *fontX;
 
-@property(nonatomic, strong) UIFont *fontXI;
+@property(nonatomic, strong) NSNumber *fontXI;
 
-@property(nonatomic, strong) UIFont *fontXII;
+@property(nonatomic, strong) NSNumber *fontXII;
 
 @end
