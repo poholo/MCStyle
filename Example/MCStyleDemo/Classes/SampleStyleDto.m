@@ -12,7 +12,7 @@
     if (!_name) {
         return @"Sample";
     }
-    return _name;
+    return [NSString stringWithFormat:@"%@abcdefABCDEFMCStyle自定义样式", _name];
 }
 
 - (UIColor *)color {

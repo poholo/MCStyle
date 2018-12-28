@@ -23,10 +23,10 @@
                  a:(uint8_t) (rgba & 0xFF)];
 }
 
-+ (UIColor *)rgb:(NSUInteger)rgba {
-    return [self r:(uint8_t) ((rgba >> 24) & 0xFF)
-                 g:(uint8_t) ((rgba >> 16) & 0xFF)
-                 b:(uint8_t) ((rgba >> 8) & 0xFF)
++ (UIColor *)rgb:(NSUInteger)rgb {
+    return [self r:(uint8_t) ((rgb >> 16) & 0xFF)
+                 g:(uint8_t) ((rgb >> 8) & 0xFF)
+                 b:(uint8_t) (rgb & 0xFF)
                  a:0xFF];
 }
 
