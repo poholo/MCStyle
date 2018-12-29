@@ -212,4 +212,9 @@
     return nil;
 }
 
++ (UIImage *)customImage:(NSString *)key {
+    NSString *custom = [MCStyleManager share].styleConfig.customImageDict[key];
+    return [UIImage imageNamed:custom];
+}
+
 @end

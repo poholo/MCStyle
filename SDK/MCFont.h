@@ -31,4 +31,5 @@
 
 + (UIFont *)fontXII;
 
++ (UIFont *)custom:(NSString *)key;
 @end

@@ -70,4 +70,6 @@
  */
 @property(nonatomic, strong) UIColor *colorXII;
 
+@property(nonatomic, strong) NSMutableDictionary<NSString *, UIColor *> *customDict;
+
 @end

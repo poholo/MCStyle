@@ -33,4 +33,6 @@
 
 @property(nonatomic, strong) NSNumber *fontXII;
 
+@property(nonatomic, strong) NSMutableDictionary<NSString *, NSNumber *> *customDict;
+
 @end

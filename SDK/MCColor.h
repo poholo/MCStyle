@@ -80,4 +80,6 @@
 
 + (UIColor *)randomImageColor;
 
++ (UIColor *)custom:(NSString *)key;
+
 @end

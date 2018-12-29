@@ -6,7 +6,16 @@
 #import "MCFontConfig.h"
 
 
-@implementation MCFontConfig {
+@implementation MCFontConfig
 
+- (void)setValue:(nullable id)value forUndefinedKey:(NSString *)key {
+    self.customDict[key] = value;
+}
+
+- (NSMutableDictionary<NSString *, NSNumber *> *)customDict {
+    if (!_customDict) {
+        _customDict = [NSMutableDictionary new];
+    }
+    return _customDict;
 }
 @end

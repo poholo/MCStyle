@@ -107,5 +107,10 @@
     return [UIFont boldSystemFontOfSize:6];
 }
 
++ (UIFont *)custom:(NSString *)key {
+    NSNumber *custom = [MCStyleManager share].fontConfig.customDict[key];
+    return [UIFont systemFontOfSize:custom.integerValue];
+}
+
 
 @end

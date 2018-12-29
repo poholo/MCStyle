@@ -164,5 +164,10 @@
     return randomColors[arc4random() % 6];
 }
 
++ (UIColor *)custom:(NSString *)key {
+    UIColor *custom = [MCStyleManager share].colorConfig.customDict[key];
+    return custom;
+}
+
 
 @end

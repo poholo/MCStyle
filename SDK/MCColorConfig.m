@@ -38,4 +38,15 @@
         [super setValue:value forKey:key];
     }
 }
+
+- (void)setValue:(nullable id)value forUndefinedKey:(NSString *)key {
+    self.customDict[key] = [MCColor rgbaString:value];
+}
+
+- (NSMutableDictionary<NSString *, UIColor *> *)customDict {
+    if (!_customDict) {
+        _customDict = [NSMutableDictionary new];
+    }
+    return _customDict;
+}
 @end
