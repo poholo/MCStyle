@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "MCStyle"
-    s.version          = "0.0.2"
+    s.version          = "0.0.3"
     s.summary          = "Config custom & smart style for iOS UI."
     s.description      = "Config custom & smart style for iOS UI."
     s.license          = 'MIT'
