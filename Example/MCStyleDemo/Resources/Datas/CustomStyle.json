@@ -1,17 +1,8 @@
 {
   "success": true,
   "data": {
-    "fontI": 10,
-    "fontII": 10,
-    "fontIII": 10,
-    "fontIV": 10,
-    "fontV": 10,
-    "fontVI": 10,
-    "fontVII": 10,
-    "fontVIII": 10,
-    "fontIX": 10,
-    "fontX": 10,
-    "fontXI": 10,
-    "fontXII": 10
+    "contentInsetI": "{15, 15, 15, 15}",
+    "contentInsetII": "{8, 8, 8, 8}",
+    "contentInsetIII": "{4, 4, 4, 4}"
   }
 }

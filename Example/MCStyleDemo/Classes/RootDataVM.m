@@ -8,6 +8,7 @@
 #import "SampleStyleDto.h"
 #import "MCColor.h"
 #import "MCFont.h"
+#import "MCStyle.h"
 
 @implementation RootDataVM
 
@@ -159,6 +160,30 @@
         SampleStyleDto *dto = [SampleStyleDto new];
         dto.name = @"fontXII";
         dto.font = [MCFont fontXII];
+        [self.dataList addObject:dto];
+    }
+
+    {
+        SampleStyleDto *dto = [SampleStyleDto new];
+        dto.name = @"styleI-content";
+        dto.font = [MCFont fontI];
+        dto.edgeInsets = [MCStyle contentInsetI];
+        [self.dataList addObject:dto];
+    }
+
+    {
+        SampleStyleDto *dto = [SampleStyleDto new];
+        dto.name = @"styleII-content";
+        dto.font = [MCFont fontI];
+        dto.edgeInsets = [MCStyle contentInsetII];
+        [self.dataList addObject:dto];
+    }
+
+    {
+        SampleStyleDto *dto = [SampleStyleDto new];
+        dto.name = @"styleIII-content";
+        dto.font = [MCFont fontI];
+        dto.edgeInsets = [MCStyle contentInsetIII];
         [self.dataList addObject:dto];
     }
 }

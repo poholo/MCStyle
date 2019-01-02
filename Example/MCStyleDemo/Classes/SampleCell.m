@@ -10,8 +10,13 @@
 @implementation SampleCell
 
 - (void)loadData:(SampleStyleDto *)dto {
-    self.textLabel.text = dto.name;
+    if (UIEdgeInsetsEqualToEdgeInsets(dto.edgeInsets, UIEdgeInsetsZero)) {
+        self.textLabel.text = dto.name;
+    } else {
+        self.textLabel.text = [NSString stringWithFormat:@"%@ - %@", dto.name, NSStringFromUIEdgeInsets(dto.edgeInsets)];
+    }
     self.textLabel.font = dto.font;
     self.textLabel.textColor = dto.color;
 }
+
 @end

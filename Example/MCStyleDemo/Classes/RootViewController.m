@@ -49,7 +49,9 @@
     };
 
     [MCStyleManager share].styleDataCallback = ^NSDictionary *(void) {
-        return nil;
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"CustomStyle" ofType:@"json"];
+        NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:path] options:NSJSONReadingMutableContainers error:nil];
+        return dict[@"data"];
     };
 
     [[MCStyleManager share] loadData];

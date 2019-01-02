@@ -12,5 +12,6 @@
 @property(nonatomic, strong) NSString *name;
 @property(nonatomic, strong) UIColor *color;
 @property(nonatomic, strong) UIFont *font;
+@property(nonatomic, assign) UIEdgeInsets edgeInsets;
 
 @end
