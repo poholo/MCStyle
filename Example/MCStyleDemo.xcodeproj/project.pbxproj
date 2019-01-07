@@ -26,13 +26,13 @@
 		1A666DB8A044405F70CC1093 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1A6664A18C424F3ACBF5299A /* README.md */; };
 		1A666DF2CBD37C51A153217A /* CustomFont.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A666AF1385CC7BE1BA4848C /* CustomFont.json */; };
 		1A666E05069CD706F1679BBE /* RootDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6664DF014868DDFA56918E /* RootDataVM.m */; };
-		1A666E2D0E05AF83497D612A /* MCDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66603C09C6543AAF608E3E /* MCDto.m */; };
 		1A666F11F1ECAFE844027CD2 /* MCStyleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666A426BB52770EBA7C7C2 /* MCStyleConfig.m */; };
 		1A666F5349B38105A6C15498 /* SampleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666BEB0DE02808127381ED /* SampleCell.m */; };
+		238EAD375F162428C2DC0E3D /* libPods-MCStyleDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DBA1C47E64F72C3D53F297 /* libPods-MCStyleDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A66603C09C6543AAF608E3E /* MCDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDto.m; sourceTree = "<group>"; };
+		00DBA1C47E64F72C3D53F297 /* libPods-MCStyleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MCStyleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A66605C4A96AFB78883F038 /* CustomColor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CustomColor.json; sourceTree = "<group>"; };
 		1A66606FAE4B6AEC47D1FBD3 /* MCStyleConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStyleConfig.h; sourceTree = "<group>"; };
 		1A6660D6D506CA3B3F5F8C1B /* MCColorConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCColorConfig.m; sourceTree = "<group>"; };
@@ -66,11 +66,12 @@
 		1A666CBD2C7A6BEBD1894D56 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A666CDDD0F19826A393860E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		1A666D24F5A234202BE2F1D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1A666F01216ABAFAC37D02C2 /* MCDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDto.h; sourceTree = "<group>"; };
 		1A666F1413553BA00E1136A5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1A666F5EBA302473FCFA141C /* CustomStyle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CustomStyle.json; sourceTree = "<group>"; };
 		1A666F83520B0E8E05DB3D5D /* SampleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCell.h; sourceTree = "<group>"; };
+		1EF81C644B36C1E899F1A7AC /* Pods-MCStyleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCStyleDemo.debug.xcconfig"; path = "Target Support Files/Pods-MCStyleDemo/Pods-MCStyleDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		25845ED821D5D3BB0007D2F9 /* MCStyleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCStyleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EB270EA095E3EF9CB2C1C1 /* Pods-MCStyleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCStyleDemo.release.xcconfig"; path = "Target Support Files/Pods-MCStyleDemo/Pods-MCStyleDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238EAD375F162428C2DC0E3D /* libPods-MCStyleDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +135,8 @@
 				25845ED921D5D3BB0007D2F9 /* Products */,
 				1A6664A18C424F3ACBF5299A /* README.md */,
 				1A666ABB6F3ED2FEC3457E67 /* MCStyle.podspec */,
+				328B4DD05018136DF613188A /* Pods */,
+				6F2785C5377CAEB32A827D9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,12 +174,28 @@
 				1A66606FAE4B6AEC47D1FBD3 /* MCStyleConfig.h */,
 				1A6664F92916FB565E8003F8 /* MCStyleManager.m */,
 				1A6665513A52DC2DBB5B0BEA /* MCStyleManager.h */,
-				1A66603C09C6543AAF608E3E /* MCDto.m */,
-				1A666F01216ABAFAC37D02C2 /* MCDto.h */,
 				1A666B31FDF2339647019FFE /* MCStyleDef.h */,
 			);
 			name = SDK;
 			path = ../SDK;
+			sourceTree = "<group>";
+		};
+		328B4DD05018136DF613188A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EF81C644B36C1E899F1A7AC /* Pods-MCStyleDemo.debug.xcconfig */,
+				38EB270EA095E3EF9CB2C1C1 /* Pods-MCStyleDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6F2785C5377CAEB32A827D9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00DBA1C47E64F72C3D53F297 /* libPods-MCStyleDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25845EEE21D5D3BD0007D2F9 /* Build configuration list for PBXNativeTarget "MCStyleDemo" */;
 			buildPhases = (
+				43D7198882A1CE76724AF011 /* [CP] Check Pods Manifest.lock */,
 				25845ED421D5D3BB0007D2F9 /* Sources */,
 				25845ED521D5D3BB0007D2F9 /* Frameworks */,
 				25845ED621D5D3BB0007D2F9 /* Resources */,
@@ -247,6 +268,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43D7198882A1CE76724AF011 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MCStyleDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		25845ED421D5D3BB0007D2F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -259,7 +305,6 @@
 				1A666AD39CEDB9B64BC25094 /* MCFontConfig.m in Sources */,
 				1A666F11F1ECAFE844027CD2 /* MCStyleConfig.m in Sources */,
 				1A6664FA99F0817AC313F32C /* MCStyleManager.m in Sources */,
-				1A666E2D0E05AF83497D612A /* MCDto.m in Sources */,
 				1A66657C5CCA021EBB6CDFE4 /* AppDelegate.m in Sources */,
 				1A66633AAACD734895307EA1 /* RootViewController.m in Sources */,
 				1A666C8C5738BEAD82063980 /* main.m in Sources */,
@@ -406,6 +451,7 @@
 		};
 		25845EEF21D5D3BD0007D2F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF81C644B36C1E899F1A7AC /* Pods-MCStyleDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -423,6 +469,7 @@
 		};
 		25845EF021D5D3BD0007D2F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38EB270EA095E3EF9CB2C1C1 /* Pods-MCStyleDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

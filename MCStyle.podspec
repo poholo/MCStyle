@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "MCStyle"
-    s.version          = "0.0.4"
+    s.version          = "0.0.5"
     s.summary          = "Config custom & smart style for iOS UI."
     s.description      = "Config custom & smart style for iOS UI."
     s.license          = 'MIT'
@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
 
     s.source_files = 'SDK/*.{h,m,mm}'
     s.public_header_files = 'SDK/*.h'
+    s.dependency 'MCBase/Dto'
 
     s.ios.framework = 'UIKit'
 
