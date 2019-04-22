@@ -7,3 +7,4 @@
 #import "MCColorConfig.h"
 #import "MCStyleConfig.h"
 #import "MCFontConfig.h"
+#import "MCStyleRefreshDelegate.h"

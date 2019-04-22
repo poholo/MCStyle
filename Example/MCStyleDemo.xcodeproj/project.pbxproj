@@ -36,6 +36,7 @@
 		1A66605C4A96AFB78883F038 /* CustomColor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CustomColor.json; sourceTree = "<group>"; };
 		1A66606FAE4B6AEC47D1FBD3 /* MCStyleConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStyleConfig.h; sourceTree = "<group>"; };
 		1A6660D6D506CA3B3F5F8C1B /* MCColorConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCColorConfig.m; sourceTree = "<group>"; };
+		1A66614471E331AFD79FB4E7 /* MCStyleRefreshDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStyleRefreshDelegate.h; sourceTree = "<group>"; };
 		1A6661FF5F08CE51997E0901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MCStyleDemo/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		1A666286768A74F74A1AA076 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		1A6663E677D79BCDC5B3CE7A /* SampleStyleDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleStyleDto.m; sourceTree = "<group>"; };
@@ -175,6 +176,7 @@
 				1A6664F92916FB565E8003F8 /* MCStyleManager.m */,
 				1A6665513A52DC2DBB5B0BEA /* MCStyleManager.h */,
 				1A666B31FDF2339647019FFE /* MCStyleDef.h */,
+				1A66614471E331AFD79FB4E7 /* MCStyleRefreshDelegate.h */,
 			);
 			name = SDK;
 			path = ../SDK;
