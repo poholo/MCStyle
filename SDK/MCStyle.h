@@ -59,5 +59,5 @@
 
 + (UIImage *)customImage:(NSString *)key;
 
-+ (UIEdgeInsets *)customInsets:(NSString *)key;
++ (UIEdgeInsets)customInsets:(NSString *)key;
 @end

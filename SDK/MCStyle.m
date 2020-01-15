@@ -217,8 +217,9 @@
     return [UIImage imageNamed:custom];
 }
 
-+ (UIEdgeInsets *)customInsets:(NSString *)key {
-    NSString *custom = [MCStyleManager share].styleConfig.customDict[key];
++ (UIEdgeInsets)customInsets:(NSString *)key {
+    NSString *value = [MCStyleManager share].styleConfig.customDict[key];
+    NSValue *custom = [NSValue valueWithUIEdgeInsets:UIEdgeInsetsFromString(value)];
     if (custom) {
         return [custom UIEdgeInsetsValue];
     }
