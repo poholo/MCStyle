@@ -23,13 +23,13 @@
 }
 
 - (void)setValue:(nullable id)value forUndefinedKey:(NSString *)key {
-    self.customImageDict[key] = value;
+    self.customDict[key] = value;
 }
 
-- (NSMutableDictionary<NSString *, NSString *> *)customImageDict {
-    if (!_customImageDict) {
-        _customImageDict = [NSMutableDictionary new];
+- (NSMutableDictionary<NSString *, NSString *> *)customDict {
+    if (!_customDict) {
+        _customDict = [NSMutableDictionary new];
     }
-    return _customImageDict;
+    return _customDict;
 }
 @end

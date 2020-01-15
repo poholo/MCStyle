@@ -58,4 +58,6 @@
 + (UIImage *)imageX_s;
 
 + (UIImage *)customImage:(NSString *)key;
+
++ (UIEdgeInsets *)customInsets:(NSString *)key;
 @end

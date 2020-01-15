@@ -213,8 +213,16 @@
 }
 
 + (UIImage *)customImage:(NSString *)key {
-    NSString *custom = [MCStyleManager share].styleConfig.customImageDict[key];
+    NSString *custom = [MCStyleManager share].styleConfig.customDict[key];
     return [UIImage imageNamed:custom];
+}
+
++ (UIEdgeInsets *)customInsets:(NSString *)key {
+    NSString *custom = [MCStyleManager share].styleConfig.customDict[key];
+    if (custom) {
+        return [custom UIEdgeInsetsValue];
+    }
+    return UIEdgeInsetsZero;
 }
 
 @end

@@ -57,6 +57,6 @@
 
 @property(nonatomic, strong) NSString *imageX_s;
 
-@property(nonatomic, strong) NSMutableDictionary<NSString *, NSString *> *customImageDict;
+@property(nonatomic, strong) NSMutableDictionary<NSString *, NSString *> *customDict;
 
 @end
