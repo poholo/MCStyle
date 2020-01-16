@@ -60,4 +60,6 @@
 + (UIImage *)customImage:(NSString *)key;
 
 + (UIEdgeInsets)customInsets:(NSString *)key;
+
++ (id)customValue:(NSString *)key;
 @end

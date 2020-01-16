@@ -226,4 +226,9 @@
     return UIEdgeInsetsZero;
 }
 
++ (id)customValue:(NSString *)key {
+    id value = [MCStyleManager share].styleConfig.customDict[key];
+    return value;
+}
+
 @end
