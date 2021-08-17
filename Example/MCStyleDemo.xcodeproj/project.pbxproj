@@ -56,7 +56,7 @@
 		1A666901FAD8414C42449EFC /* MCFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCFont.m; sourceTree = "<group>"; };
 		1A666A426BB52770EBA7C7C2 /* MCStyleConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCStyleConfig.m; sourceTree = "<group>"; };
 		1A666AAC67A2249D5FBA0DE9 /* MCStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStyle.h; sourceTree = "<group>"; };
-		1A666ABB6F3ED2FEC3457E67 /* MCStyle.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; name = MCStyle.podspec; path = ../MCStyle.podspec; sourceTree = "<group>"; };
+		1A666ABB6F3ED2FEC3457E67 /* MCStyle.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; name = MCStyle.podspec; path = ../MCStyle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1A666AEBB0933CF8F5E9BEC5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A666AF1385CC7BE1BA4848C /* CustomFont.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CustomFont.json; sourceTree = "<group>"; };
 		1A666B31FDF2339647019FFE /* MCStyleDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStyleDef.h; sourceTree = "<group>"; };
@@ -188,7 +188,6 @@
 				1EF81C644B36C1E899F1A7AC /* Pods-MCStyleDemo.debug.xcconfig */,
 				38EB270EA095E3EF9CB2C1C1 /* Pods-MCStyleDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

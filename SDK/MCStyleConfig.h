@@ -3,7 +3,7 @@
 // Copyright (c) 2018 majiancheng. All rights reserved.
 //
 
-#import "MCDto.h"
+#import <MCBase/MCDto.h>
 
 @interface MCStyleConfig : MCDto
 
